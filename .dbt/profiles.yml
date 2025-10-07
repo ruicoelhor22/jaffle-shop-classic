@@ -1,0 +1,12 @@
+jaffle_shop:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      database: ' '
+      schema: ' '
+      host: https://dbc-d676854d-a9f6.cloud.databricks.com/oidc
+      http_path: /sql/1.0/warehouses/e25bd2e300dec0b6
+      token: dapia5c4b867c86d6be91b33e766115b75b9dapia5c4b867c86d6be91b33e766115b75b9dapia5c4b867c86d6be91b33e766115b75b9 aaadapia5c4b867c86d6be91b33e766115b75b9dapia5c4b867c86d6be91b33e766115b75b9
+      auth_type: databricks_cli
+      threads: 16
